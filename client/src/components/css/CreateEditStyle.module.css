@@ -1,0 +1,135 @@
+*{
+    font-family: 'Brush Script MT', cursive;
+}
+/* ---------background------------- */
+.background {
+    background-image: url("../images/dark_sky.png");
+    background-size:cover;
+    height: 1220px;
+    opacity: 0px;
+    background-position: bottom;
+    margin-right: auto;
+    margin-left: auto;
+}
+.backgroundR{
+    background-image: url("../images/night_dove.jpg");
+    background-size:cover;
+    height: 1220px;
+    opacity: 0px;
+    background-position: bottom;
+    margin-right: auto;
+    margin-left: auto;
+}
+.backgroundE{
+    background-image: url("../images/night_mountain.png");
+    background-size:cover;
+    height: 1220px;
+    opacity: 0px;
+    background-position: bottom;
+    margin-right: auto;
+    margin-left: auto;
+}
+.backgroundER{
+    background-image: url("../images/sky_teal.png");
+    background-size:cover;
+    height: 1220px;
+    opacity: 0px;
+    background-position: bottom;
+    margin-right: auto;
+    margin-left: auto;
+}
+.backgroundD{
+    background-image: url("../images/ice_sky.png");
+    background-size:cover;
+    height: 1220px;
+    opacity: 0px;
+    background-position: bottom;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container{
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+/* -------------------------Input Styling------------------------ */
+
+.labelstyle{
+    width: 50%;
+    height: 4rem;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 2.4rem;
+    font-weight: normal;
+    border: 2px double rgb(137, 151, 155);
+    transition: border-color 150ms ease-in-out 0s;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding-right: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(73, 73, 100);
+}
+.labelstyle2{
+    width: 90%;
+    height: 4rem;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 2.4rem;
+    font-weight: normal;
+    border: 2px double rgb(137, 151, 155);
+    transition: border-color 150ms ease-in-out 0s;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding-right: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(73, 73, 100);
+
+}
+:hover{
+    box-shadow: rgb(231 238 236) 0px 0px 0px 3px;
+}
+.labeltext{
+    font-size: 2.5rem;
+    color:rgb(238, 255, 4)
+}
+
+.validationStyle{
+    color:rgb(241, 53, 53);
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+/* -----------------------Button/Link header Styling------------------------ */
+
+.submitbtn{
+    height: 3rem;
+    width: 6rem;
+    background-color:rgb(102, 228, 144);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.submitbtn2{
+    height: 3.5rem;
+    background-color:rgb(102, 228, 144);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.homelink{
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+h1{
+    color: antiquewhite;
+}
